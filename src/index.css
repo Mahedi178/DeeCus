@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"&family=Bitcount+Grid+Double:wght@100..900&display=swap" rel="stylesheet');
+
+@import "tailwindcss";
+
+/* Nordic Winter */
+:root {
+  --bg: #2e3440;
+  --surface: #3b4252;
+  --border: #434c5e;
+  --text: #eceff4;
+  --muted: #94a3b8;
+  --accent: #88c0d0;
+  --success: #a3be8c;
+  --warning: #ebcb8b;
+  --radius: 8px;
+}
+
+@theme {
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-bg: var(--bg);
+  --color-text: var(--text);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Roboto Mono", monospace;
+  -webkit-font-smoothing: antialiased;
+}
