@@ -1,6 +1,7 @@
 # DeeCus
 
 **DeeCus** is a high-performance, developer-focused Pomodoro productivity application. Built with a minimalist "Tokyo Night" aesthetic, it combines deep-work session tracking with a robust task management system.
+🚀 **[View Live Demo](https://dee-cus.vercel.app/)**
 
 ## 🚀 Key Features
 
