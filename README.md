@@ -64,9 +64,8 @@ The application uses a **Lazy Initialization** pattern in `App.jsx` to fetch dat
 
 ### Timer Engine
 The `useTimer` hook manages a precise 1-second tick interval using `setInterval` and `useRef`. It dynamically handles transitions between Focus, Short Break, and Long Break modes based on your `longBreakInterval` settings[cite: 10].
-
----
-**Author**: [Mahedi178]
-**Version**: 1.0.0
-**License**: MIT
 ````
+
+## LICENSE
+
+[MIT](LICENSE)
